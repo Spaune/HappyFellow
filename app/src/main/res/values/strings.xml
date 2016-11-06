@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Happy Fellow</string>
+    <string name="title_activity_start">ActivityStart</string>
 </resources>

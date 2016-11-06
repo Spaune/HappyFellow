@@ -15,6 +15,29 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="ActivityStart">
+            <intent-filter>
+                <action android:name="com.evacorporation.action.start"></action>
+
+                <category android:name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ActivityRate">
+            <intent-filter>
+                <action android:name="com.evacorporation.action.rate"></action>
+
+                <category android:name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ActivityExit">
+            <intent-filter>
+                <action android:name="com.evacorporation.actoin.exit"></action>
+
+                <category android:name="android.intent.category.DEFAULT"></category>
+            </intent-filter>
+        </activity>
+
+
     </application>
 
 </manifest>
